@@ -3,6 +3,8 @@ Natron [![Build Status](https://api.travis-ci.org/MrKepzie/Natron.png?branch=wor
 ======
 
 
+Lala
+
 Natron is a free open-source (GPLv2 license) video compositing
 software, similar in functionality to Adobe After Effects, Nuke by The
 Foundry, or Blackmagic Fusion.
@@ -19,7 +21,7 @@ Features
 - 32 bits floating point linear colour processing pipeline.
 - Colorspace management handled by the OpenColorIO library.
 - Dozens of file formats supported: EXR, DPX,TIFF, JPG, PNG…thanks to OpenImageIO and FFmpeg.
-- Support for many free and open-source OpenFX plugins: 
+- Support for many free and open-source OpenFX plugins:
  * [TuttleOFX](https://sites.google.com/site/tuttleofx/)
  * [OpenFX-IO](https://github.com/MrKepzie/openfx-io) to read anything else
    than standard 8-bits images
@@ -39,7 +41,7 @@ Features
 - OpenFX: Currently almost all features of OpenFX v1.4 are supported
 
 - Intuitive user interface: Natron aims not to break habits by providing an intuitive and familiar user
-interface.  It is possible to customize and separate on any number of screens the graphical user interface. 
+interface.  It is possible to customize and separate on any number of screens the graphical user interface.
 You can re-use your layouts and share your layout files (.nl)
 
 - Performances:  Never wait for anything to be rendered, in Natron anything you do produces
@@ -71,23 +73,23 @@ with a very accurate and intuitive Curve Editor as well as a Dope Sheet to quick
 
 - Command line tool for execution of project files. The command line version is executable
  on a computer without any display. Hence it is possible to use a render farm
-  to render Natron's projects. 
-  
+  to render Natron's projects.
+
 - Rotoscoping, rotopainting and tracking support
-  
+
 - Multi-view workflow: Natron saves time by keeping all the views in the same stream. You can separate
 the views at any time with the OneView node.
 
 - Python 2 scripting integration:
     * Parameters expressions
     * User-defined parameters
-    * Nodes groups as Python scripts 
+    * Nodes groups as Python scripts
     * Script editor to control the application overall
     * User-defined python callbacks to respond to particular checkpoints of the internals of the software (change of a parameter, before rendering a frame, etc…)
     * Integration of Pyside to the GUI so that the interface is extensible with new menus and windows
 
 - Multi-plane: Natron is able to deal with multi-layered EXR files thanks to OpenImageIO. It is deeply integrated into the workflow and the user can choose
-to work with any layer (or plane) on any node. New custom layers can also be created. 
+to work with any layer (or plane) on any node. New custom layers can also be created.
 
 Requirements
 ------------
@@ -110,7 +112,7 @@ Planned features
 ----------------
 
 ### Features planned for Next major version
-    
+
 - Optical Flow nodes: VectorGenerator, MotionBlur, RollingShutter, Retiming
 
 - Integration of Blender's production proven tracker in Natron to replace the existing tracker
@@ -137,7 +139,7 @@ The main development branch is called
 The master branch contains the last known stable version.
 
 Additionally each stable release supported has a branch on its own.
-For example the stable release of the v1.0. and all its bug fixes should go into that 
+For example the stable release of the v1.0. and all its bug fixes should go into that
 branch.
 At some point,  version which are no longer supported will get removed from github's branches
 and only a release tag will be available to get the source code at that point.
